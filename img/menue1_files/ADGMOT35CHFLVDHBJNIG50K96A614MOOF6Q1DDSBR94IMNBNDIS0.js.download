@@ -1,0 +1,1 @@
+var configuration_map = {"notificationRuleList":[],"bpnRuleList":[{"optInType":"single","optInRule":"all","notificationId":"MTI3MjExODEwODFmZTA3ZjExZmMwNjgxOWFkYTc3YjZhYjk4Mjc=","whereTo":{"pageRuleCode":{"targetRule":"all","rules":[]}},"whenTo":[]}],"config":{"enableNotification":true,"enableBpn":true}};

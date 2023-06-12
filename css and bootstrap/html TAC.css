@@ -1,0 +1,109 @@
+/* NAVBAR */
+
+#nav1{
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 560;
+    background-color: aqua;
+}
+body{
+    background-image: url(img/blur\ backgd.jpeg) cover;
+    background-color: azure;
+}
+#nav1ul1{
+    padding: 0px 0px 0px 54%;
+    /* border: 2px solid salmon; */
+}
+#nav1ul1 li a:hover{
+    text-decoration: underline;
+}
+.modal-title{
+    margin-left: 20px;
+    color: rgb(58, 34, 3);
+}
+.signpgmod{
+    width: 100%;
+    padding: 4px;
+    margin: 5px 10px 10px 5px;
+    }
+#cact1, #cact2, #cact3, #cact4{
+    height: 38px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 2px;
+}
+
+.modal-footer{
+    /* text-align: center; */
+    margin: auto;
+}
+#mom{
+    font-weight: 860;
+    font-size: 23px;
+}
+
+/* END OF NAVBAR */
+
+/* BAKC GD IMAGE */
+.img1 img{
+    display: block;
+    margin: auto;
+    width: 90%; 
+    height: 50%;
+}
+
+
+/* CONTENT */
+
+#headh1 h1{
+    padding: 20px;
+    font-weight: 1000;
+    font-style: italic;
+    text-shadow: 4px 4px 10px hotpink;
+}
+#headh1 p{
+    font-weight: 500;
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+#footcon{
+    font-size: 28px;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    background-color: rgb(153, 72, 229);
+}
+#footcon1 h2{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+#footcon2 .col{
+    font-size: 18px;
+    padding:15px 5px 15px 40px;
+    /* border: 2px solid rgb(0, 255, 255); */
+}
+#footcon3 h4{
+    padding-left: 18px;
+    padding-bottom: px;
+}
+#footcon2 a{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+#footcon2 a:hover{
+    text-shadow: 4px 4px 10px rgb(255, 255, 255);
+    text-decoration: underline;
+}

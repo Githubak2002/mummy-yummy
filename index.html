@@ -1,0 +1,480 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home / Mummy yummy</title>
+
+  <!-- linking bootstrap file works offline-->
+  <link rel="stylesheet" href="css and bootstrap/bootstrap.css">
+  <!-- linking css file-->
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+  <!-- 2nd nav bar with search button with stiky nature and dropdown-->
+  <nav id="nav1" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a id="mom" class="navbar-brand" href="#">
+        <!-- <img src="img A/L.jpg" alt="" width="60" height="64" class="d-inline-block align-text-top"> -->
+        Mummy yummy
+      </a>
+      <!-- <a class="navbar-brand" href="#">Ak creative</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="nav1ul1" class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="html contact us.html"  tabindex="-1"
+              aria-disabled="true">Contact us</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="signup trail.html">Login</a></li> -->
+
+          <!-- CREARTING SMALL LOGIN AND SIGN UP PAGE -->
+          <li class="nav-item">
+            <h4 id="modal1" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Log in</a>
+            </h4>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Log in</h5>
+                    <!-- cross button -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <input type="text" class="signpgmod" placeholder="Phone">
+                    <button id="cact1" type="button" class="btn btn-primary">Get OTP</button>
+                    <center>or</center>
+                    <button id="cact3" type="button" class="btn btn-secondary">Cotinue with email id</button>
+                    <button id="cact4" type="button" class="btn btn-secondary">Cotinue with facebook</button>
+                  </div>
+
+                  <div class="modal-footer">
+                    New to Mummy yummy?<a href="#">Create account</a>
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+
+          <!-- SIGN UP PAGE LINK -->
+          <li class="nav-item">
+            <h4 id="modal1" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sign up</a>
+            </h4>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel2">Sign up</h4>
+                    <!-- cross button -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <input type="text" class="signpgmod" placeholder="Full name">
+                    <input type="text" class="signpgmod" placeholder="Email">
+                    <input type="checkbox">I agree to all the terms and coditions and private policy.<br>
+                    <button id="cact2" type="button" class="btn btn-primary">Create account</button>
+                  </div>
+                  <div class="modal-footer">
+                    Already have an account?<a href="#">Log in</a>
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+
+
+
+
+
+
+          <!-- other signup button  -->
+          <!-- <li class="nav-item">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              sign up
+              </button>
+              
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Sign up</h5> 
+                      
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="signpgmod">
+                      <input type="text" placeholder="Full name">
+                      <input type="text" placeholder="Email"><br>
+                      <input type="checkbox">I agree to all the terms and coditions and private policy.<br>
+                      <button id="cact" type="button" class="btn btn-primary">Create account</button>
+                    </div>
+                    <div class="modal-footer">
+                      Already have an account?<a href="#">Log in</a> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </li> -->
+        </ul>
+        <!-- <form class="d-flex"> -->
+        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+        <!-- <button class="btn btn-outline-success" type="submit">Create your character</button>
+                </form> -->
+      </div>
+    </div>
+    <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Characters
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="char iron.html">Iron man</a></li>
+                    <li><a class="dropdown-item" href="#">Caption</a></li>
+                    <li><a class="dropdown-item" href="#">Thor</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Display more</a></li>
+                </ul>
+            </li> -->
+  </nav>
+
+  <div class="container-fluid">
+
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/disbg1.jpg" id="disimg1" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/disbg2.jpg" id="disimg2" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/disbg3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- <div class="card" style="width: 18rem;">
+    <img src="img/bug.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div> -->
+
+  <!-- <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+  <!-- MENUE -->
+
+<!-- <div class="component-slider">
+  <div class="slider-container"><div class="slider-content" style="margin-left: 0px;">
+    <div class="menu-item_wrapper">
+      <div class="menu-item u_cursor_pointer" role="presentation">
+        <div class="menu-item__image"><picture>
+          <source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210427111853745473_114x101png, https://burgerking-image.s3.amazonaws.com/category/Home/web/2x_web_20210427111853258904_228x202png 2x, https://burgerking-image.s3.amazonaws.com/category/Home/web/3x_web_20210427111853033650_342x303png 3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210427111853745473_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Friends &amp; Family Combo</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220806172440369524_114x101png,  2x,  3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220806172440369524_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Friendship Day Combos  (Save Rs 90)</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20201214094752825353_114x101png, https://burgerking-image.s3.amazonaws.com/category/Home/web/2x_web_20201214094752161362_228x202png 2x, https://burgerking-image.s3.amazonaws.com/category/Home/web/3x_web_20201214094751853108_342x303png 3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20201214094752825353_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Whopper</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20201214092757042942_114x101png, https://burgerking-image.s3.amazonaws.com/category/Home/web/2x_web_20201214092756456386_228x202png 2x, https://burgerking-image.s3.amazonaws.com/category/Home/web/3x_web_20201214092756118505_342x303png 3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20201214092757042942_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Top Picks</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220221045917058620_114x101png,  2x,  3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220221045917058620_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">New Kings Collection</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220217155013788571_114x101png,  2x,  3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220217155013788571_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Stunner Menu at 50/70</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220217154844702799_114x101png,  2x,  3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220217154844702799_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Burgers</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210427112037534695_114x101png, https://burgerking-image.s3.amazonaws.com/category/Home/web/2x_web_20210427112036986691_228x202png 2x, https://burgerking-image.s3.amazonaws.com/category/Home/web/3x_web_20210427112036737925_342x303png 3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210427112037534695_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Sides</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210427112353788469_114x101png, https://burgerking-image.s3.amazonaws.com/category/Home/web/2x_web_20210427112353283807_228x202png 2x, https://burgerking-image.s3.amazonaws.com/category/Home/web/3x_web_20210427112353009977_342x303png 3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210427112353788469_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Beverages</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210813044722998596_114x101png,  2x,  3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210813044722998596_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Desserts</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210427112221790841_114x101png, https://burgerking-image.s3.amazonaws.com/category/Home/web/2x_web_20210427112221183780_228x202png 2x, https://burgerking-image.s3.amazonaws.com/category/Home/web/3x_web_20210427112220960692_342x303png 3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210427112221790841_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Chicken Wings</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220707091710124593_114x101png,  2x,  3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20220707091710124593_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Royal Deals ( Flat 15% OFF)</p></div></div><div class="menu-item_wrapper"><div class="menu-item u_cursor_pointer" role="presentation"><div class="menu-item__image"><picture><source srcset="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210919155700560846_114x101png, https://burgerking-image.s3.amazonaws.com/category/Home/web/2x_web_20210919155700734284_228x202png 2x, https://burgerking-image.s3.amazonaws.com/category/Home/web/3x_web_20210919155700202389_342x303png 3x" type="image/jpeg/png"><img src="https://burgerking-image.s3.amazonaws.com/category/Home/web/1x_web_20210919155700560846_114x101png" alt="burger" class="menu-item__img"></picture></div><p class="menu-item__name">Cricket Mania Combos</p></div></div></div></div><button class="caret caret-right"><div class="htl-scroll__arrow htl-scroll__arrow_right htl-scroll-rgt htl-scroll__arrow_top" role="presentation"><img src="/static/media/right-arrow.073e1c9d.svg" alt="leftArrow" class="htl-scroll__icon"></div></button></div> -->
+
+    <!-- MENUE1 -->
+
+
+<div class="col-sm-6 offset-1" id="menuehead1"><h1>MENUE</h1></div>
+<div class="container">
+  <div class="row" id="menuerow1">
+    
+    <div class="col-sm">
+    <div class="menuesubdiv">
+      <img src="img/menu1.jpg "alt="error"><br><b>Family and friend combo</b></div>
+    </div>
+    <div class="col-sm">
+      <div class="menuesubdiv">
+        <img src="img/menue2.jpg "alt="error"><br><b>Friend Combo</b></div>
+      </div>
+    <div class="col-sm">
+      <div class="menuesubdiv">
+        <img src="img/menue3.jpg "alt="error"><br><b>Burger</b></div>
+      </div>
+
+    <div class="col-sm">
+        <div class="menuesubdiv">
+          <img src="img/menue5.jpg "alt="error"><br><b>Beverages</b></div>
+      </div>
+    <div class="col-sm">
+        <div class="menuesubdiv">
+          <img src="img/menue6.jpg "alt="error"><br><b>Desserts</b></div>
+        </div>  
+    <div class="col-sm">
+          <div class="menuesubdiv">
+            <img src="img/menue4.jpg "alt="error"><br><b>Fries</b></div>
+          </div>
+</div>
+</div>
+
+<!-- MENUE SUB PART 2  -->
+
+<div class="col-sm-6 offset-1" id="menuehead2"><h1>COMBO OF THE DAY</h1></div>
+<div class="container">
+  <div class="row" id="menuerow2">
+    <div class="col-md-4">
+    <div class="menuesubdiv2">
+      <img src="img/menue7.jpg "alt="error"><br><b>Family and friend combo</b></div>
+    </div>
+    <div class="col-md-4">
+      <div class="menuesubdiv2">
+        <img src="img/menue8.jpg "alt="error"><br><b>Friend combo</b></div>
+      </div>
+    <div class="col-md-4">
+      <div class="menuesubdiv2">
+        <img src="img/menue9.jpg "alt="error"><br><b>Burger</b></div>
+      </div>
+
+</div>
+</div>
+
+<!-- END OF MENUES -->
+
+  <!-- COMBO -->
+
+  <!-- <div class="container" id="combomain" style="width: 18.5 rem;">
+    <div class="row">
+      <div class="col-4 offset-4">
+        <img src="img/Combo  (1).jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Combo</h2>
+          <p class="card-text">Some of the best combos are available for you</p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!-- <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="img/Combo  (3).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/Combo  (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/Combo  (2).jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/Combo  (2).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ -->
+
+  <!-- <div class="card-group">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="col-sm-6 offset-1" id="menuehead2"><h1>HOT SERVE! FAST SERVE!</h1></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div id="middivimg1" class="midimg">
+          <a href="#"> <img src="img/bug.jpg" alt="burger"></a>
+          <br>
+          <h2 class="itemdis">Burger starting from @ rs 39</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="middivimg2" class="midimg">
+          <a href="#"><img src="img/piz.jpg" alt="Pizza"></a>
+          <br>
+          <h2 class="itemdis">Pizza starting from @ rs 89</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="middivimg3" class="midimg">
+          <a href="#"><img src="img/Combo  (1).jpg" alt="Meals"></a>
+          <br>
+          <h2 class="itemdis">Burger, pizza and coke @ rs 1160</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div id="middivimg1" class="midimg">
+          <a href="#"> <img src="img/Combo  (3).jpg" alt="burger"></a>
+          <br>
+          <h2 class="itemdis">Chicken Burger and coke @ rs 300</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="middivimg1" class="midimg">
+          <a href="#"><img src="img/Combo  (2).jpg" alt="Pizza"></a>
+          <br>
+          <h2 class="itemdis">Burger, fries and coke @ rs 189</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="middivimg1" class="midimg">
+          <a href="#"><img src="img/Combo  (2).jpeg" alt="Meals"></a>
+          <br>
+          <h2 class="itemdis">Burger and fries @ rs 49</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container">
+<div class="row">
+  <div class="col-md" id="bkimgfoot">
+    <img src="img/backimgfooter.jpg">
+  </div>
+</div></div>
+
+  
+  
+  <!-- FOOTER -->
+
+  <div id="footcon" class="container-fluid">
+    <div id="footcon1" class="row">
+      <h2>Mummy yummy</h2>
+    </div>
+    <div id="footcon2" class="row">
+      <div class="col"><a href="html about us.html"> About us</a></div>
+      <div class="col"><a href="html faq.html">Faq</a></div>
+      <div class="col"><a href="html tac.html">Terms and conditions</a></div>
+      <div class="col"><a href="#">Feedback</a></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <hr>
+    <div id="footcon3" class="row">
+      <div class="col-8-lg">
+        <h4>All rights reserved. Copyright foodworkd.Ltd</h4>
+      </div>
+    </div>
+  </div>
+  <!-- linking js file works offline-->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

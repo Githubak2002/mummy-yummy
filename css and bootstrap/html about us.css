@@ -1,0 +1,98 @@
+/* NAVBAR */
+
+#nav1{
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 560;
+    background-color: aqua;
+}
+body{
+    background-image: url(img/blur\ backgd.jpeg) cover;
+    background-color: azure;
+}
+#nav1ul1{
+    padding: 0px 0px 0px 54%;
+    /* border: 2px solid salmon; */
+}
+#nav1ul1 li a:hover{
+    text-decoration: underline;
+}
+.modal-title{
+    margin-left: 20px;
+    color: rgb(58, 34, 3);
+}
+.signpgmod{
+    width: 100%;
+    padding: 4px;
+    margin: 5px 10px 10px 5px;
+    }
+#cact1, #cact2, #cact3, #cact4{
+    height: 38px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 2px;
+}
+
+.modal-footer{
+    /* text-align: center; */
+    margin: auto;
+}
+#mom{
+    font-weight: 860;
+    font-size: 23px;
+}
+
+/* END OF NAVBAR */
+
+/* IMF */
+.imgdiv img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+/* CONTENT */
+#cont1 , #cont2{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+h3{
+    text-shadow: 4px 4px 8px gold;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+#footcon{
+    font-size: 28px;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    background-color: rgb(153, 72, 229);
+}
+#footcon1 h2{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+#footcon2 .col{
+    font-size: 18px;
+    padding:15px 5px 15px 40px;
+    /* border: 2px solid rgb(0, 255, 255); */
+}
+#footcon3 h4{
+    padding-left: 18px;
+    padding-bottom: px;
+}
+#footcon2 a{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+} 

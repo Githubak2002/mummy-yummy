@@ -1,0 +1,138 @@
+ /* *{
+     background-color: antiquewhite; 
+    box-sizing: border-box;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+
+/* NAVBAR */
+#nav1{
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 560;
+    background-color: aqua;
+}
+body{
+    background-image: url(img/blur\ backgd.jpeg) cover;
+    background-color: azure;
+}
+#nav1ul1{
+    padding: 0px 0px 0px 54%;
+    /* border: 2px solid salmon; */
+}
+#nav1ul1 li a:hover{
+    text-decoration: underline;
+}
+.modal-title{
+    margin-left: 20px;
+    color: rgb(58, 34, 3);
+}
+.signpgmod{
+    width: 100%;
+    padding: 4px;
+    margin: 5px 10px 10px 5px;
+    }
+#cact1, #cact2, #cact3, #cact4{
+    height: 38px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 2px;
+}
+
+.modal-footer{
+    /* text-align: center; */
+    margin: auto;
+}
+#mom{
+    font-weight: 860;
+    font-size: 23px;
+}
+/* NAVE BAR end */
+
+/* BACKGROUNG IMAGE */
+#bgimgcu img{
+    opacity: .8;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+/* END */
+
+#culable h1{
+    font-weight: 855;
+    font-family:sans-serif;
+    position: relative;
+    text-align: center;
+    margin-top: -30%;
+    
+}
+
+
+
+/* CONTACT INFO IMAGES */
+#contcuimgs{
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.main{
+
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border:2px solid rgb(158, 157, 157);
+    border-radius: 8px;
+    box-shadow:12px 10px 18px rgb(234, 91, 222);
+}
+.img1cu img{
+    padding-top: 8px;
+    height: 80px;
+    width: auto;
+}
+#mage1{
+    justify-items: center;
+    display: block;
+    margin: auto;
+}
+.img1cu img{
+  
+    display: block;
+    margin: auto;
+}
+.img1cuinfo{
+    padding: 10px;
+    text-align: center;
+}
+/* CONTACT INFO IMAGES */
+
+
+/* FOOTER */
+#footcon{
+    font-size: 28px;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    background-color: rgb(153, 72, 229);
+}
+#footcon1 h2{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+#footcon2 .col{
+    font-size: 18px;
+    padding:15px 5px 15px 40px;
+    /* border: 2px solid rgb(0, 255, 255); */
+}
+#footcon3 h4{
+    padding-left: 18px;
+    padding-bottom: px;
+}
+#footcon2 a{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+#footcon2 a:hover{
+    text-shadow: 4px 4px 10px rgb(255, 255, 255);
+    text-decoration: underline;
+}
